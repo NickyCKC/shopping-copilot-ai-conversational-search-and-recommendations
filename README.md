@@ -1,10 +1,9 @@
-# Cartographer
+# Shopping Copilot: AI Conversational Search and Recommendations
 
-**Entropy-guided conversational product search for the TechJam 2026 Shopping Copilot challenge.**
+**Cartographer is an entropy-guided conversational product search system built for TikTok TechJam 2026.**
 
-> **TikTok TechJam 2026 — Track 1.** The separate Track 2 recommender-system
-> project is available at
-> [tiktok-techjam-2026-track2](https://github.com/NickyCKC/tiktok-techjam-2026-track2).
+> The companion autonomous recommender-system research project is available at
+> [Autonomous Machine Learning Research Agent for Recommender Systems](https://github.com/NickyCKC/autonomous-machine-learning-research-agent-for-recommender-systems).
 
 Cartographer treats shopping dialogue as active search. On every turn it ranks the best products it can identify *and* asks the question expected to remove the most uncertainty. It runs locally on CPU, uses no paid API, reports zero LLM tokens, and preserves the organizer's required `Agent` interface.
 
