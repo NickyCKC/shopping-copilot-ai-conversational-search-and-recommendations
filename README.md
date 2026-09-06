@@ -2,6 +2,10 @@
 
 **Entropy-guided conversational product search for the TechJam 2026 Shopping Copilot challenge.**
 
+> **TikTok TechJam 2026 — Track 1.** The separate Track 2 recommender-system
+> project is available at
+> [tiktok-techjam-2026-track2](https://github.com/NickyCKC/tiktok-techjam-2026-track2).
+
 Cartographer treats shopping dialogue as active search. On every turn it ranks the best products it can identify *and* asks the question expected to remove the most uncertainty. It runs locally on CPU, uses no paid API, reports zero LLM tokens, and preserves the organizer's required `Agent` interface.
 
 ## Why this approach
@@ -180,7 +184,3 @@ The runtime package never imports the evaluator, public labels, or ground truth.
 ## Data attribution
 
 The frozen competition catalog is derived from Amazon Reviews 2023 by McAuley Lab, UCSD. See [DATA_ATTRIBUTION.md](DATA_ATTRIBUTION.md). The catalog is intentionally ignored by Git and must not be republished outside the competition's terms.
-
-## Team contributions
-
-The implementation includes system design, retrieval and dialogue engineering, evaluation tooling, tests, documentation, and demo preparation. Replace this paragraph with member names and their specific contributions before the final Devpost submission.
